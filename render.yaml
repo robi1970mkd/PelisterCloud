@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pelagonchat
+    env: python
+    buildCommand: ""
+    startCommand: "bash start.sh"
+    branch: main
+    plan: free
+    autoDeploy: true
