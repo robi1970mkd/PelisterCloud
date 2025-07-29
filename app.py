@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "✅ PelagonChat е стартуван успешно!"
+    return "🌍 Добредојде во Heraklea Pelagon AI систем!"
 
 @app.route("/status")
 def status():
