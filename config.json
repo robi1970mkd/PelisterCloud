@@ -1,1 +1,9 @@
-{"ai_agents": ["Stibera", "Pelister"], "auto_start": true, "sync_products": true}
+{
+  "ai_agents": ["Stibera", "Pelister"]
+}
+
+Меѓутоа, во stibera_main.py според кодот што го постави, се користат дополнителни конфигурации како:
+
+top_platforms = config["top_platforms"]
+top_products = config["top_products"]
+law_sources = config["law_sources"]
