@@ -1,9 +1,10 @@
 {
-  "ai_agents": ["Stibera", "Pelister"]
+  "ai_agents": ["Stibera", "Pelister"],
+  "top_platforms": ["Amazon", "AliExpress", "eBay", "Etsy", "Walmart"],
+  "top_products": ["EcoBottle", "SmartWatch", "SolarLamp", "AirPurifier", "YogaMat"],
+  "law_sources": [
+    "https://www.federalregister.gov/",
+    "https://eur-lex.europa.eu/",
+    "https://www.ilo.org/global/lang--en/index.htm"
+  ]
 }
-
-Меѓутоа, во stibera_main.py според кодот што го постави, се користат дополнителни конфигурации како:
-
-top_platforms = config["top_platforms"]
-top_products = config["top_products"]
-law_sources = config["law_sources"]
