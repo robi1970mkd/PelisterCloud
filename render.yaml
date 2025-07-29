@@ -3,7 +3,7 @@ services:
     name: pelagonchat
     env: python
     buildCommand: ""
-    startCommand: "bash start.sh"
+    startCommand: "python app.py"
     branch: main
     plan: free
     autoDeploy: true
